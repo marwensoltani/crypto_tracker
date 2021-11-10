@@ -6,10 +6,6 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
-  {
-    path: 'bitcoin',
-    loadChildren: () => import('./bitcoin/bitcoin.module').then( m => m.BitcoinPageModule)
-  }
 ];
 @NgModule({
   imports: [

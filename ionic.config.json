@@ -1,5 +1,7 @@
 {
-  "name": "crypto_tracker_P_2021",
-  "integrations": {},
+  "name": "crypto_tracker-N-2021",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
